@@ -79,6 +79,8 @@ def encode():
         elif i == "z":     o = "b"
         elif i == " ":     o = " "
         elif i == ".":     o = "."
+        elif i == "?":     o = "?"
+        elif i == "!":     o = "!"
         else:   o = "█"
         
         smallBigText = random.randint(0, 1)
