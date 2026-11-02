@@ -84,8 +84,8 @@ def encode():
         else:   o = "█"
         
         smallBigText = random.randint(0, 1)
-        if smallBigText == 0:   o.lower()
-        else:                   o.upper()
+        if smallBigText == 0:   o = o.lower()
+        else:                   o = o.upper()
         finalString = finalString + o
     print(finalString)
     
